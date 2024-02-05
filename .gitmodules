@@ -1,0 +1,4 @@
+[submodule "submodules/hypll"]
+	path = submodules/hypll
+	url = https://github.com/usermar445/hyperbolic_learning_library.git
+	branch = hypll-siren
