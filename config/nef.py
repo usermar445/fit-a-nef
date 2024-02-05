@@ -13,6 +13,15 @@ available_nefs = {
             },
         }
     ),
+    "HYPLLMLP": ConfigDict(
+        {
+            "name": "HYPLLMLP",
+            "params": {
+                "hidden_dim": 15,
+                "num_layers": 3,
+            },
+        }
+    ),
     "FourierNet": ConfigDict(
         {
             "name": "FourierNet",
@@ -31,6 +40,16 @@ available_nefs = {
                 "hidden_dim": 8,
                 "num_layers": 3,
                 "omega_0": 8.0,
+            },
+        }
+    ),
+    "HSIREN": ConfigDict(
+        {
+            "name": "HSIREN",
+            "params": {
+                "hidden_dim": 8,
+                "num_layers": 4,
+                "omega_0": 30,
             },
         }
     ),
